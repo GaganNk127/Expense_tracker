@@ -20,7 +20,7 @@ function Index() {
       };
 
       localStorage.setItem('auth', JSON.stringify(authInfo));
-      navigate('/expense-tracker');
+      navigate('/expense');
     } catch (error) {
       console.error('Error signing in:', error);
     }
